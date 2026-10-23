@@ -1,0 +1,57 @@
+name: Aggiorna Database Aule
+
+on:
+  # Trigger 1: quando viene modificato orari_scraped.json
+  push:
+    paths:
+      - 'orari_scraped.json'
+    branches:
+      - main
+
+  # Trigger 2: esecuzione manuale dalla scheda Actions di GitHub
+  workflow_dispatch:
+
+# Permessi necessari per permettere all'Action di effettuare il push sul repository
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-aggregate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installa dipendenze Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Installa Chromium per Playwright
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Esegui aggregatore e scraper
+        run: |
+          python up_aggregator.py
+
+      - name: Commit e Push dei dati aggiornati
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add up_archive.json up_rooms_db.json
+          
+          # Fa il commit solo se i file generati hanno subito effettive variazioni
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica rilevata nel database aule."
+          else
+            git commit -m "chore(data): auto-update database aule da orari_scraped.json [skip ci]"
+            git push
+          fi
