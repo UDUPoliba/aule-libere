@@ -33,9 +33,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Installa Chromium per Playwright
+      - name: Installa Chromium e dipendenze essenziali
         run: |
-          python -m playwright install-deps chromium --only-shell
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libnss3 libgbm1 libasound2t64
           python -m playwright install chromium
 
       - name: Scarica orari_scraped.json da repo privato
