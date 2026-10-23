@@ -35,11 +35,11 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      # Scarica orari_scraped.json dal repository privato udubari-website
       - name: Scarica orari_scraped.json da repo privato
-        if: "${{ secrets.UDU_HUB_TOKEN != '' }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.UDU_HUB_TOKEN }}
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.UDU_HUB_TOKEN }}" \
+          curl -H "Authorization: Bearer $GITHUB_TOKEN" \
                -H "Accept: application/vnd.github.v3.raw" \
                -sSL "https://api.github.com/repos/UDUBari/udubari-website/contents/orari_scraped.json" \
                -o orari_scraped.json
