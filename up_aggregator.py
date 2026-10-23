@@ -28,7 +28,6 @@ def popola_archivio_da_grezzo(
     raw_path="orari_scraped.json", archive_path="up_archive.json"
 ):
     """Legge il file grezzo di scraping, filtra PDF e Drive esterni (ArCoD),
-
     normalizza gli URL, deduplica i calendari identici e salva up_archive.json.
     """
     if not os.path.exists(raw_path):
@@ -36,6 +35,13 @@ def popola_archivio_da_grezzo(
 
     with open(raw_path, "r", encoding="utf-8") as f:
         raw_data = json.load(f)
+
+    # Controllo di sicurezza: intercetta errori 404 di GitHub
+    if isinstance(raw_data, dict) and raw_data.get("status") == "404":
+        raise RuntimeError(
+            f"ERRORE: '{raw_path}' contiene una risposta 404 dalle API GitHub.\n"
+            "Verifica che il secret UDU_HUB_TOKEN sia valido e che il repository sia 'UDUBari/udubari-website'."
+        )
 
     # Dizionario con chiave = linkCalendarioId per deduplicare
     unique_links = {}
@@ -57,100 +63,20 @@ def popola_archivio_da_grezzo(
             ):
                 continue
 
-            # 2. Estrai il linkCalendarioId univoco (gestisce sia path che query param)
-            match_id = re.search(r"linkCalendarioId=([a-f0-9]+)", url_raw)
-            if not match_id:
-                continue
-
-            link_id = match_id.group(1)
-            # URL pulito e normalizzato (rimuove eventuali doppi slash //calendarioPubblico)
-            url_pulito = f"https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId={link_id}"
-
-            # Etichetta leggibile e pulita
-            nome_corso = item.get("name", "").strip()
-            anno_pulito = item.get("yearClean") or item.get("year", "")
-            anno_pulito = re.sub(r"&#176;", "°", str(anno_pulito)).strip()
-            label = f"[{dipartimento}] {nome_corso} ({anno_pulito})"
-
-            if link_id not in unique_links:
-                unique_links[link_id] = {
-                    "link_id": link_id,
-                    "url": url_pulito,
-                    "dipartimenti": [dipartimento],
-                    "descrizioni": [label],
-                }
-            else:
-                if dipartimento not in unique_links[link_id]["dipartimenti"]:
-                    unique_links[link_id]["dipartimenti"].append(dipartimento)
-                if label not in unique_links[link_id]["descrizioni"]:
-                    unique_links[link_id]["descrizioni"].append(label)
-
-    # Costruisci l'archivio strutturato
-    archive_payload = {
-        "generato_il": datetime.now().isoformat(),
-        "config": {
-            "ora_inizio_giornata": ORA_INIZIO_DEFAULT,
-            "ora_fine_giornata": ORA_FINE_DEFAULT,
-            "giorni_lavorativi": GIORNI_DEFAULT,
-        },
-        "links": [
-            {
-                "link_id": v["link_id"],
-                "descrizione": " / ".join(v["descrizioni"]),
-                "dipartimento": ", ".join(v["dipartimenti"]),
-                "url": v["url"],
-            }
-            for v in unique_links.values()
-        ],
-    }
-
-    with open(archive_path, "w", encoding="utf-8") as f:
-        json.dump(archive_payload, f, indent=2, ensure_ascii=False)
-
-    print(
-        f"[OK] Archivio '{archive_path}' popolato con successo: "
-        f"{len(archive_payload['links'])} calendari Cineca UP univoci estratti."
-    )
-    return archive_payload
-    """Legge il file grezzo di scraping, filtra i PDF, normalizza gli URL,
-
-    deduplica i calendari identici e salva up_archive.json.
-    """
-    if not os.path.exists(raw_path):
-        raise FileNotFoundError(f"File grezzo '{raw_path}' non trovato.")
-
-    with open(raw_path, "r", encoding="utf-8") as f:
-        raw_data = json.load(f)
-
-    # Dizionario con chiave = linkCalendarioId per deduplicare
-    unique_links = {}
-
-    for dipartimento, lista_corsi in raw_data.items():
-        if not isinstance(lista_corsi, list):
-            continue
-
-        for item in lista_corsi:
-            url_raw = item.get("link", "").strip()
-
-            # 1. Ignora PDF o URL che non appartengono a University Planner
-            if not url_raw or ".pdf" in url_raw.lower() or "cineca.it" not in url_raw:
-                continue
-
             # 2. Estrai il linkCalendarioId univoco
             match_id = re.search(r"linkCalendarioId=([a-f0-9]+)", url_raw)
             if not match_id:
                 continue
 
             link_id = match_id.group(1)
-            # Ripulisci doppi slash tipici: https://poliba.prod.up.cineca.it//calendario...
             url_pulito = (
                 f"https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId={link_id}"
             )
 
-            # Etichetta leggibile
+            # Etichetta leggibile e pulita
             nome_corso = item.get("name", "").strip()
-            anno_pulito = item.get("yearClean", item.get("year", "")).strip()
-            anno_pulito = re.sub(r"&#176;", "°", anno_pulito)
+            anno_pulito = item.get("yearClean") or item.get("year", "")
+            anno_pulito = re.sub(r"&#176;", "°", str(anno_pulito)).strip()
             label = f"[{dipartimento}] {nome_corso} ({anno_pulito})"
 
             if link_id not in unique_links:
@@ -255,7 +181,6 @@ def build_aggregated_db(
     archive_path="up_archive.json",
     output_db="up_rooms_db.json",
 ):
-    # FASE 1: Popolamento / Aggiornamento archivio da file grezzo
     print("[FASE 1] Ingestione e normalizzazione da file grezzo...")
     archivio = popola_archivio_da_grezzo(raw_path, archive_path)
 
@@ -265,7 +190,6 @@ def build_aggregated_db(
     giorni_lavorativi = cfg.get("giorni_lavorativi", GIORNI_DEFAULT)
     links = archivio.get("links", [])
 
-    # FASE 2: Scraping di tutti i calendari univoci
     print(
         f"\n[FASE 2] Avvio scraping di {len(links)} link Cineca UP con Chromium..."
     )
@@ -288,7 +212,6 @@ def build_aggregated_db(
 
         browser.close()
 
-    # FASE 3: Aggregazione e Mappatura Aule
     print(
         f"\n[FASE 3] Aggregazione di {len(tutte_lezioni)} impegni complessivi..."
     )
@@ -311,7 +234,6 @@ def build_aggregated_db(
                 g: {"lezioni": [], "fasce_libere": []} for g in giorni_lavorativi
             }
 
-        # Deduplicazione di lezioni identiche (stesso slot orario, stessa aula e insegnamento)
         gia_presente = any(
             x["orario_inizio"] == lz["orario_inizio"]
             and x["orario_fine"] == lz["orario_fine"]
@@ -331,7 +253,6 @@ def build_aggregated_db(
                 }
             )
 
-    # Calcolo fasce libere per ogni aula e giorno
     for aula in aule_db:
         for giorno in aule_db[aula]:
             lezioni_ord = sorted(

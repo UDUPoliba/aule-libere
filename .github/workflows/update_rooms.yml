@@ -1,17 +1,14 @@
 name: Aggiorna Database Aule
 
 on:
-  # Trigger 1: quando viene modificato orari_scraped.json sul repo locale
   push:
     paths:
       - 'orari_scraped.json'
     branches:
       - main
 
-  # Trigger 2: esecuzione manuale dalla scheda Actions di GitHub
   workflow_dispatch:
 
-# Permessi necessari per permettere all'Action di effettuare il push sul repository
 permissions:
   contents: write
 
@@ -38,15 +35,13 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      # Recupera l'ultimo orari_scraped.json dal repository privato udubari.org (se configurato il secret)
+      # Scarica orari_scraped.json dal repository privato udubari-website
       - name: Scarica orari_scraped.json da repo privato
-        if: "${{ env.UDU_TOKEN != '' }}"
-        env:
-          UDU_TOKEN: ${{ secrets.UDU_HUB_TOKEN }}
+        if: "${{ secrets.UDU_HUB_TOKEN != '' }}"
         run: |
-          curl -H "Authorization: token ${{ secrets.UDU_HUB_TOKEN }}" \
+          curl -H "Authorization: Bearer ${{ secrets.UDU_HUB_TOKEN }}" \
                -H "Accept: application/vnd.github.v3.raw" \
-               -sSL "https://api.github.com/repos/UDUBari/udubari.org/contents/orari_scraped.json" \
+               -sSL "https://api.github.com/repos/UDUBari/udubari-website/contents/orari_scraped.json" \
                -o orari_scraped.json
 
       - name: Esegui aggregatore e scraper
@@ -59,7 +54,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add up_archive.json up_rooms_db.json orari_scraped.json
           
-          # Fa il commit solo se i file generati hanno subito effettive variazioni
           if git diff --staged --quiet; then
             echo "Nessuna modifica rilevata nel database aule."
           else
