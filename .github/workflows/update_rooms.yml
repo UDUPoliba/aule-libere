@@ -46,7 +46,7 @@ jobs:
         run: |
           curl -H "Authorization: token ${{ secrets.UDU_HUB_TOKEN }}" \
                -H "Accept: application/vnd.github.v3.raw" \
-               -sSL "https://api.github.com/repos/UDUPoliba/udubari.org/contents/orari_scraped.json" \
+               -sSL "https://api.github.com/repos/UDUBari/udubari.org/contents/orari_scraped.json" \
                -o orari_scraped.json
 
       - name: Esegui aggregatore e scraper
