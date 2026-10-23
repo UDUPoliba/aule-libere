@@ -197,7 +197,11 @@ def build_aggregated_db(
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(viewport={"width": 1920, "height": 1080})
+        context = browser.new_context(
+            viewport={"width": 1920, "height": 1080},
+            timezone_id="Europe/Rome",
+            locale="it-IT"
+        )
 
         for i, item in enumerate(links, 1):
             url = item["url"]

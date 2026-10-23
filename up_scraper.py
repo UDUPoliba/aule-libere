@@ -153,7 +153,11 @@ def scrape_link(url: str, browser_context=None):
     else:
         with sync_playwright() as p:
             b = p.chromium.launch(headless=True)
-            ctx = b.new_context(viewport={"width": 1920, "height": 1080})
+            ctx = b.new_context(
+                viewport={"width": 1920, "height": 1080},
+                timezone_id="Europe/Rome",
+                locale="it-IT"
+            )
             risultati = _execute(ctx)
             b.close()
             return risultati
