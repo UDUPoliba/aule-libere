@@ -27,7 +27,7 @@ def to_hhmm(minutes: int) -> str:
 def popola_archivio_da_grezzo(
     raw_path="orari_scraped.json", archive_path="up_archive.json"
 ):
-    """Legge il file grezzo di scraping, filtra PDF e Drive esterni (ArCoD),
+    """Legge il file grezzo di scraping, filtra PDF, Drive esterni (ArCoD) e Taranto,
     normalizza gli URL, deduplica i calendari identici e salva up_archive.json.
     """
     if not os.path.exists(raw_path):
@@ -43,17 +43,25 @@ def popola_archivio_da_grezzo(
             "Verifica che il secret UDU_HUB_TOKEN sia valido e che il repository sia 'UDUBari/udubari-website'."
         )
 
-    # Dizionario con chiave = linkCalendarioId per deduplicare
     unique_links = {}
 
     for dipartimento, lista_corsi in raw_data.items():
         if not isinstance(lista_corsi, list):
             continue
 
+        # 1. Esclude l'intero dipartimento/polo di Taranto
+        if "TARANTO" in dipartimento.upper():
+            continue
+
         for item in lista_corsi:
             url_raw = item.get("link", "").strip()
+            nome_corso = item.get("name", "").strip()
 
-            # 1. Ignora PDF, Google Drive (ArCoD) o link che non appartengono a UP Cineca
+            # 2. Esclude corsi specifici con sede Taranto
+            if "TARANTO" in nome_corso.upper():
+                continue
+
+            # 3. Ignora PDF, Google Drive (ArCoD) o link che non appartengono a UP Cineca
             if (
                 not url_raw
                 or item.get("isDirect") is True
@@ -63,7 +71,7 @@ def popola_archivio_da_grezzo(
             ):
                 continue
 
-            # 2. Estrai il linkCalendarioId univoco
+            # 4. Estrai il linkCalendarioId univoco
             match_id = re.search(r"linkCalendarioId=([a-f0-9]+)", url_raw)
             if not match_id:
                 continue
@@ -73,8 +81,6 @@ def popola_archivio_da_grezzo(
                 f"https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId={link_id}"
             )
 
-            # Etichetta leggibile e pulita
-            nome_corso = item.get("name", "").strip()
             anno_pulito = item.get("yearClean") or item.get("year", "")
             anno_pulito = re.sub(r"&#176;", "°", str(anno_pulito)).strip()
             label = f"[{dipartimento}] {nome_corso} ({anno_pulito})"
@@ -92,7 +98,6 @@ def popola_archivio_da_grezzo(
                 if label not in unique_links[link_id]["descrizioni"]:
                     unique_links[link_id]["descrizioni"].append(label)
 
-    # Costruisci l'archivio strutturato
     archive_payload = {
         "generato_il": datetime.now().isoformat(),
         "config": {
@@ -115,8 +120,8 @@ def popola_archivio_da_grezzo(
         json.dump(archive_payload, f, indent=2, ensure_ascii=False)
 
     print(
-        f"[OK] Archivio '{archive_path}' popolato con successo: "
-        f"{len(archive_payload['links'])} calendari Cineca UP univoci estratti."
+        f"[OK] Archivio '{archive_path}' popolato con successo (senza Taranto): "
+        f"{len(archive_payload['links'])} calendari Cineca UP estratti."
     )
     return archive_payload
 
@@ -135,7 +140,6 @@ def calcola_fasce_libere(lezioni, ora_inizio_day="08:30", ora_fine_day="20:00"):
             }
         ]
 
-    # 1. Merge intervalli occupati
     occupati = []
     for lz in sorted(lezioni, key=lambda x: to_minutes(x["orario_inizio"])):
         s = max(to_minutes(lz["orario_inizio"]), start_day)
@@ -150,7 +154,6 @@ def calcola_fasce_libere(lezioni, ora_inizio_day="08:30", ora_fine_day="20:00"):
             else:
                 occupati.append([s, e])
 
-    # 2. Calcolo buchi liberi
     fasce_libere = []
     curr = start_day
     for occ_s, occ_e in occupati:
@@ -225,11 +228,15 @@ def build_aggregated_db(
         aula = lz["aula"]
         giorno = lz["giorno"]
 
+        # Filtro aule nulle, non lavorative o appartenenti al polo di Taranto
         if (
             not aula
             or aula == "N/D"
             or not giorno
             or giorno not in giorni_lavorativi
+            or "TARANTO" in aula.upper()
+            or "- TA" in aula.upper()
+            or "(TA)" in aula.upper()
         ):
             continue
 
@@ -283,7 +290,7 @@ def build_aggregated_db(
 
     print(
         f"\n[SUCCESSO] Database aule '{output_db}' generato con successo!"
-        f" ({len(aule_db)} aule mappate in fascia {ora_inizio_day}-{ora_fine_day})"
+        f" ({len(aule_db)} aule mappate del Campus di Bari in fascia {ora_inizio_day}-{ora_fine_day})"
     )
 
 
