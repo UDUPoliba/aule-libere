@@ -35,7 +35,8 @@ jobs:
 
       - name: Installa Chromium per Playwright
         run: |
-          python -m playwright install --with-deps chromium
+          python -m playwright install-deps chromium --only-shell
+          python -m playwright install chromium
 
       - name: Scarica orari_scraped.json da repo privato
         env:
