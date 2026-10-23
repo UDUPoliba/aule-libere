@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generato_il": "2026-10-23T19:43:24.546324",
+    "generato_il": "2026-10-23T22:35:30.175034",
     "fascia_giornaliera": "08:30 - 20:00",
-    "totale_aule": 44,
-    "totale_corsi_elaborati": 80
+    "totale_aule": 43,
+    "totale_corsi_elaborati": 70
   },
   "aule": {
     "Aula A": {
@@ -7010,30 +7010,12 @@
       "Lunedì": {
         "lezioni": [
           {
-            "orario_inizio": "11:20",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "FONDAMENTI DI ELETTRONICA - ELETTRONICA ANALOGICA (I MOD.)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
             "orario_inizio": "11:50",
             "orario_fine": "13:30",
             "nome_insegnamento": "ELECTRONIC SYSTEMS FOR BIOMETRICS AND BIOSENSING",
             "corso_di_studio": null,
             "anno_corso": "II Anno",
             "eventuale_percorso": "TELECOMMUNICATIONS AND INTERNET TECHNOLOGIES engineering",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "FONDAMENTI DI ELETTRONICA - ELETTRONICA DIGITALE (II MOD.)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
             "partizione": null
           },
           {
@@ -7058,13 +7040,13 @@
         "fasce_libere": [
           {
             "orario_inizio": "08:30",
-            "orario_fine": "11:20",
-            "durata_minuti": 170
+            "orario_fine": "11:50",
+            "durata_minuti": 200
           },
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "19:30",
@@ -7085,38 +7067,11 @@
             "partizione": null
           },
           {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "AFFIDABILITA' E MANUTENZIONE DEGLI IMPIANTI PER L'AERONAUTICA",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
             "orario_inizio": "11:00",
             "orario_fine": "13:30",
             "nome_insegnamento": "MISURE TERMOFLUIDODINAMICHE",
             "corso_di_studio": "Ingegneria MECCANICA (D.M. 270/04)",
             "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "MECCANICA DEL VOLO",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "15:40",
-            "nome_insegnamento": "AFFIDABILITA' E MANUTENZIONE DEGLI IMPIANTI PER L'AERONAUTICA",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
             "eventuale_percorso": null,
             "partizione": null
           },
@@ -7142,8 +7097,8 @@
         "fasce_libere": [
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "18:40",
@@ -7160,15 +7115,6 @@
             "nome_insegnamento": "TRIBOLOGIA",
             "corso_di_studio": "Ingegneria MECCANICA (D.M. 270/04)",
             "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "SISTEMI ELETTROMAGNETICI PER L'AEROSPAZIO",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
             "eventuale_percorso": null,
             "partizione": null
           },
@@ -7191,15 +7137,6 @@
             "partizione": null
           },
           {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "MECCANICA DEL VOLO",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
             "orario_inizio": "14:30",
             "orario_fine": "17:00",
             "nome_insegnamento": "ADVANCED MATHEMATICAL METHODS",
@@ -7212,8 +7149,8 @@
         "fasce_libere": [
           {
             "orario_inizio": "13:55",
-            "orario_fine": "14:00",
-            "durata_minuti": 5
+            "orario_fine": "14:30",
+            "durata_minuti": 35
           },
           {
             "orario_inizio": "17:00",
@@ -7234,38 +7171,11 @@
             "partizione": null
           },
           {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "SISTEMI ELETTROMAGNETICI PER L'AEROSPAZIO",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "10:30",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "COMPORTAMENTO MECCANICO DI MATERIALI PER L'AEROSPAZIO",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
             "orario_inizio": "11:00",
             "orario_fine": "13:30",
             "nome_insegnamento": "TRIBOLOGIA",
             "corso_di_studio": "Ingegneria MECCANICA (D.M. 270/04)",
             "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "15:40",
-            "nome_insegnamento": "COMPORTAMENTO MECCANICO DI MATERIALI PER L'AEROSPAZIO",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
             "eventuale_percorso": null,
             "partizione": null
           },
@@ -7291,8 +7201,8 @@
         "fasce_libere": [
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "16:10",
@@ -7318,29 +7228,11 @@
             "partizione": null
           },
           {
-            "orario_inizio": "10:30",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "FONDAMENTI DI ELETTRONICA - ELETTRONICA ANALOGICA (I MOD.)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
             "orario_inizio": "11:50",
             "orario_fine": "13:30",
             "nome_insegnamento": "SISTEMI DI COMBUSTIONE E CONTROLLO DELLE EMISSIONI",
             "corso_di_studio": "INGEGNERIA ENERGETICA",
             "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "15:40",
-            "nome_insegnamento": "FONDAMENTI DI ELETTRONICA - ELETTRONICA DIGITALE (II MOD.)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "III Anno",
             "eventuale_percorso": null,
             "partizione": null
           },
@@ -7362,8 +7254,8 @@
           },
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "17:00",
@@ -9953,39 +9845,12 @@
             "partizione": null
           },
           {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "FONDAMENTI DI MACHINE LEARNING E DATA SCIENCE - FONDAMENTI DI MACHINE LEARNING E DATA SCIENCE - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
-          },
-          {
             "orario_inizio": "10:50",
             "orario_fine": "13:30",
             "nome_insegnamento": "CARTOGRAFIA DIGITALE PER LA MOBILITA' + MOBILITA' ATTIVA E NUOVI SERVIZI DI TRASPORTO - CARTOGRAFIA DIGITALE PER LA MOBILITA' + MOBILITA' ATTIVA E NUOVI SERVIZI DI TRASPORTO - MOD. 1 CARTOGRAFIA DIGITALE PER LA MOBILITA'",
             "corso_di_studio": "Ingegneria per la Mobilità Sostenibile",
             "anno_corso": "I Anno",
             "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "INGEGNERIA DEL WEB",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "INGEGNERIA DEL WEB",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
             "partizione": null
           },
           {
@@ -10001,8 +9866,8 @@
         "fasce_libere": [
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "17:00",
@@ -10032,15 +9897,6 @@
             "partizione": null
           },
           {
-            "orario_inizio": "14:00",
-            "orario_fine": "15:40",
-            "nome_insegnamento": "SISTEMI OPERATIVI E CYBERSECURITY - SISTEMI OPERATIVI E CYBERSECURITY - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
-          },
-          {
             "orario_inizio": "14:30",
             "orario_fine": "17:50",
             "nome_insegnamento": "GESTIONE DEI RIFIUTI SOLIDI E BONIFICA DEI SITI CONTAMINATI",
@@ -10048,22 +9904,13 @@
             "anno_corso": "I Anno",
             "eventuale_percorso": null,
             "partizione": null
-          },
-          {
-            "orario_inizio": "15:40",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "FONDAMENTI DI MACHINE LEARNING E DATA SCIENCE - FONDAMENTI DI MACHINE LEARNING E DATA SCIENCE - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
           }
         ],
         "fasce_libere": [
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "17:50",
@@ -10093,15 +9940,6 @@
             "partizione": null
           },
           {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "SISTEMI OPERATIVI E CYBERSECURITY - SISTEMI OPERATIVI E CYBERSECURITY - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
-          },
-          {
             "orario_inizio": "14:30",
             "orario_fine": "16:10",
             "nome_insegnamento": "PROGETTAZIONE CON MATERIALI INNOVATIVI E SPERIMENTAZIONE PER  AEROMOBILI - PROGETTAZIONE CON MATERIALI INNOVATIVI (1 Modulo)",
@@ -10123,8 +9961,8 @@
         "fasce_libere": [
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "17:50",
@@ -10154,15 +9992,6 @@
             "partizione": null
           },
           {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "FONDAMENTI DI MACHINE LEARNING E DATA SCIENCE - FONDAMENTI DI MACHINE LEARNING E DATA SCIENCE - MODULO B",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
-          },
-          {
             "orario_inizio": "14:30",
             "orario_fine": "16:10",
             "nome_insegnamento": "IDRAULICA AMBIENTALE",
@@ -10180,13 +10009,13 @@
           },
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
-            "orario_inizio": "16:30",
+            "orario_inizio": "16:10",
             "orario_fine": "20:00",
-            "durata_minuti": 210
+            "durata_minuti": 230
           }
         ]
       },
@@ -10199,24 +10028,6 @@
             "corso_di_studio": "L.M. Ingegneria CIVILE",
             "anno_corso": "II Anno",
             "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "INGEGNERIA DEL WEB",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "INGEGNERIA DEL WEB",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "III Anno",
-            "eventuale_percorso": "P-TECH",
             "partizione": null
           },
           {
@@ -10237,13 +10048,13 @@
           },
           {
             "orario_inizio": "13:30",
-            "orario_fine": "14:00",
-            "durata_minuti": 30
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
-            "orario_inizio": "16:30",
+            "orario_inizio": "16:10",
             "orario_fine": "20:00",
-            "durata_minuti": 210
+            "durata_minuti": 230
           }
         ]
       },
@@ -10644,127 +10455,37 @@
     },
     "Aula G2": {
       "Lunedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "PRINCIPI ED APPLICAZIONI DELL'INGEGNERIA ELETTRICA  - PRINCIPI DI INGEGNERIA ELETTRICA (I MOD.)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "10:30",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "MECCANICA TEORICA E APPLICATA - MECCANICA APPLICATA ALLE MACCHINE  (II Modulo)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
+        "lezioni": [],
         "fasce_libere": [
           {
             "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "13:00",
             "orario_fine": "20:00",
-            "durata_minuti": 420
+            "durata_minuti": 690
           }
         ]
       },
       "Martedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "TERMOFLUIDODINAMICA - TERMODINAMICA APPLICA AI SISTEMI ENERGETICI (I MOD)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "TERMOFLUIDODINAMICA - FLUIDODINAMICA (II MOD)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
+        "lezioni": [],
         "fasce_libere": [
           {
             "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "13:00",
             "orario_fine": "20:00",
-            "durata_minuti": 420
+            "durata_minuti": 690
           }
         ]
       },
       "Mercoledì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "TERMOFLUIDODINAMICA - TERMODINAMICA APPLICA AI SISTEMI ENERGETICI (I MOD)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "10:30",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "TERMOFLUIDODINAMICA - FLUIDODINAMICA (II MOD)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
+        "lezioni": [],
         "fasce_libere": [
           {
             "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "13:00",
             "orario_fine": "20:00",
-            "durata_minuti": 420
+            "durata_minuti": 690
           }
         ]
       },
       "Giovedì": {
         "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "MECCANICA TEORICA E APPLICATA - MECCANICA APPLICATA ALLE MACCHINE  (II Modulo)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "10:30",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "PRINCIPI ED APPLICAZIONI DELL'INGEGNERIA ELETTRICA  - PRINCIPI DI INGEGNERIA ELETTRICA (I MOD.)",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "II Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
           {
             "orario_inizio": "14:00",
             "orario_fine": "15:40",
@@ -10778,13 +10499,8 @@
         "fasce_libere": [
           {
             "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "13:00",
             "orario_fine": "14:00",
-            "durata_minuti": 60
+            "durata_minuti": 330
           },
           {
             "orario_inizio": "15:40",
@@ -11132,216 +10848,6 @@
             "orario_inizio": "08:30",
             "orario_fine": "20:00",
             "durata_minuti": 690
-          }
-        ]
-      },
-      "Sabato": {
-        "lezioni": [],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "20:00",
-            "durata_minuti": 690
-          }
-        ]
-      }
-    },
-    "Aula G1": {
-      "Lunedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (MOD.A)",
-            "corso_di_studio": "L.T. Ingegneria CIVILE e AMBIENTALE",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": "TA",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:00",
-            "orario_fine": "16:30",
-            "nome_insegnamento": "GEOMETRIA E ALGEBRA",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "14:00",
-            "durata_minuti": 160
-          },
-          {
-            "orario_inizio": "16:30",
-            "orario_fine": "20:00",
-            "durata_minuti": 210
-          }
-        ]
-      },
-      "Martedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (MOD.A)",
-            "corso_di_studio": "L.T. Ingegneria CIVILE e AMBIENTALE",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": "TA",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "10:30",
-            "orario_fine": "12:10",
-            "nome_insegnamento": "INFORMATICA PER L'INGEGNERIA",
-            "corso_di_studio": "L.T. Ingegneria CIVILE e AMBIENTALE",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": "TA",
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "12:10",
-            "orario_fine": "20:00",
-            "durata_minuti": 470
-          }
-        ]
-      },
-      "Mercoledì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (MOD.A)",
-            "corso_di_studio": "L.T. Ingegneria CIVILE e AMBIENTALE",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": "TA",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "20:00",
-            "durata_minuti": 520
-          }
-        ]
-      },
-      "Giovedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (MOD.A)",
-            "corso_di_studio": "L.T. Ingegneria CIVILE e AMBIENTALE",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": "TA",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "10:30",
-            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA - MODULO A",
-            "corso_di_studio": "Ingegneria Informatica e dell'automazione",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "13:00",
-            "nome_insegnamento": "GEOMETRIA E ALGEBRA",
-            "corso_di_studio": "Ingegneria dei SISTEMI AEROSPAZIALI",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "10:30",
-            "orario_fine": "11:20",
-            "durata_minuti": 50
-          },
-          {
-            "orario_inizio": "13:00",
-            "orario_fine": "20:00",
-            "durata_minuti": 420
-          }
-        ]
-      },
-      "Venerdì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:50",
-            "orario_fine": "11:20",
-            "nome_insegnamento": "INFORMATICA PER L'INGEGNERIA",
-            "corso_di_studio": "L.T. Ingegneria CIVILE e AMBIENTALE",
-            "anno_corso": "I Anno",
-            "eventuale_percorso": "TA",
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "08:50",
-            "durata_minuti": 20
-          },
-          {
-            "orario_inizio": "11:20",
-            "orario_fine": "20:00",
-            "durata_minuti": 520
           }
         ]
       },

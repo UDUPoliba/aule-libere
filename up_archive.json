@@ -1,5 +1,5 @@
 {
-  "generato_il": "2026-10-23T19:40:20.341374",
+  "generato_il": "2026-10-23T22:32:27.251833",
   "config": {
     "ora_inizio_giornata": "08:30",
     "ora_fine_giornata": "20:00",
@@ -432,66 +432,6 @@
       "descrizione": "[DMMM] LT Management Engineering For Innovation (1)",
       "dipartimento": "DMMM",
       "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6aad67357c735b00dbda90de"
-    },
-    {
-      "link_id": "6926cdf8fff872001965c98f",
-      "descrizione": "[TARANTO] LT Ing. Civile e Ambientale (1)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6926cdf8fff872001965c98f"
-    },
-    {
-      "link_id": "6926cedc3d83e0001ede46cd",
-      "descrizione": "[TARANTO] LT Ing. Civile e Ambientale (2)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6926cedc3d83e0001ede46cd"
-    },
-    {
-      "link_id": "6926d08cfff872001965c9eb",
-      "descrizione": "[TARANTO] LT Ing. Civile e Ambientale (3)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6926d08cfff872001965c9eb"
-    },
-    {
-      "link_id": "68cb3ac037a2d500b9165a8f",
-      "descrizione": "[TARANTO] LM Ing. Civile e Ambientale (1)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cb3ac037a2d500b9165a8f"
-    },
-    {
-      "link_id": "68cb3b06e2153000a551c887",
-      "descrizione": "[TARANTO] LM Ing. Civile e Ambientale (2)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cb3b06e2153000a551c887"
-    },
-    {
-      "link_id": "6907546f899b8b0069591dee",
-      "descrizione": "[TARANTO] LT Ing. Aerospaziale (1)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6907546f899b8b0069591dee"
-    },
-    {
-      "link_id": "690764ebc7f6f3005f1e298a",
-      "descrizione": "[TARANTO] LT Ing. Aerospaziale (2)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=690764ebc7f6f3005f1e298a"
-    },
-    {
-      "link_id": "6907653382725a005fdb0539",
-      "descrizione": "[TARANTO] LT Ing. Aerospaziale (3)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6907653382725a005fdb0539"
-    },
-    {
-      "link_id": "69399be9f69e560019dec5ca",
-      "descrizione": "[TARANTO] LT Ing. Informatica P-Tech (1)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=69399be9f69e560019dec5ca"
-    },
-    {
-      "link_id": "690753f7d3a5600055bdefe0",
-      "descrizione": "[TARANTO] LT Ing. Informatica P-Tech (3)",
-      "dipartimento": "TARANTO",
-      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=690753f7d3a5600055bdefe0"
     }
   ]
 }
