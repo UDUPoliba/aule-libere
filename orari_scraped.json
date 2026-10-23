@@ -1,677 +1,688 @@
 {
-"CORSI COMUNI": [
+    "CORSI COMUNI": [
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseA",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ac476dc1b260001ea91c35"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ac476dc1b260001ea91c35"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseB",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ac5507c1b260001ea91d67"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ac5507c1b260001ea91d67"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseC",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ac561390508d001f6d414c"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ac561390508d001f6d414c"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseD",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ac5685c1b260001ea91d81"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ac5685c1b260001ea91d81"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseE",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ac56f4bc0011001973b388"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ac56f4bc0011001973b388"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseG",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ac575deacfe10019814eee"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ac575deacfe10019814eee"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseH",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd2dcc272009002e24bf7d"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd2dcc272009002e24bf7d"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseI",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd2f0435194e0037d9b418"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd2f0435194e0037d9b418"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseL",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd300bd90a8a001a8fac58"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd300bd90a8a001a8fac58"
         },
         {
             "code": "1S_Ins.COMUNI",
             "name": "Ins.COMUNI ClasseM",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd30695fc852001f70b4e8"
-        },
-        {
-            "code": "1S_Ins.COMUNI",
-            "name": "Ins.COMUNI ClasseN",
-            "year": "1&#176;",
-            "yearClean": "1",
-            "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ccf87ae7d7590019602b58"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd30695fc852001f70b4e8"
         }
     ],
     "DEI": [
         {
             "code": "1S_LT17-R",
             "name": "LT Ing. Informatica e Automazione",
-            "year": "1&#176; - Cognome AL",
+            "year": "1° - Cognome AL",
             "yearClean": "1 Cognome AL",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68af26e6dfe6dd001e93feb0"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68af26e6dfe6dd001e93feb0"
         },
         {
             "code": "1S_LT17-R",
             "name": "LT Ing. Informatica e Automazione",
-            "year": "1&#176; - Cognome MZ",
+            "year": "1° - Cognome MZ",
             "yearClean": "1 Cognome MZ",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68af26e6dfe6dd001e93feb0"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68af26e6dfe6dd001e93feb0"
         },
         {
             "code": "1S_LT17",
             "name": "LT Ing. Informatica e Automazione",
-            "year": "2&#176; - Cognome AL",
+            "year": "2° - Cognome AL",
             "yearClean": "2 Cognome AL",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b063b8dfe6dd001e941214"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b063b8dfe6dd001e941214"
         },
         {
             "code": "1S_LT17",
             "name": "LT Ing. Informatica e Automazione",
-            "year": "2&#176; - Cognome MZ",
+            "year": "2° - Cognome MZ",
             "yearClean": "2 Cognome MZ",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b06435f58ed5001e312d15"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b06435f58ed5001e312d15"
         },
         {
             "code": "1S_LT17",
             "name": "LT Ing. Informatica e Automazione",
-            "year": "3&#176; - Percorso Automazione",
-            "yearClean": "3",
+            "year": "3° - Percorso Automazione",
+            "yearClean": "3 Percorso Automazione",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cad943400b650073c2fad9"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cad943400b650073c2fad9"
         },
         {
             "code": "1S_LT17",
             "name": "LT Ing. Informatica e Automazione",
-            "year": "3&#176; - Percorso Sist. e App. informatiche",
-            "yearClean": "3",
+            "year": "3° - Percorso Sist. e App. informatiche",
+            "yearClean": "3 Percorso Sist. e App. informatiche",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b064afdd664700189b17e8"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b064afdd664700189b17e8"
         },
         {
             "code": "1S_LT18-R",
             "name": "LT Ing. Elettronica e Tec. Internet",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b0704bdfe6dd001e9412c7"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b0704bdfe6dd001e9412c7"
         },
         {
             "code": "1S_LT18",
             "name": "LT Ing. Elettronica e Tec. Internet",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b162dafc488a0019357d01"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b162dafc488a0019357d01"
         },
         {
             "code": "1S_LT18",
             "name": "LT Ing. Elettronica e Tec. Internet",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b18d77bffbb1001e867dd1"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b18d77bffbb1001e867dd1"
         },
         {
             "code": "1S_LT05-R",
             "name": "LT Ing. Energia Elettrica",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ba9d8f61e5c5001fe61151"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ba9d8f61e5c5001fe61151"
         },
         {
             "code": "1S_LT05",
             "name": "LT Ing. Energia Elettrica",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68bab1e753c39e001a1ee408"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68bab1e753c39e001a1ee408"
         },
         {
             "code": "1S_LT05",
             "name": "LT Ing. Energia Elettrica",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68babc5a2b78f7001e4dae76"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68babc5a2b78f7001e4dae76"
         },
         {
             "code": "1S_LT60",
             "name": "LT Ing. Sistemi Medicali",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b188f5dfe6dd001e941c96"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b188f5dfe6dd001e941c96"
         },
         {
             "code": "1S_LT60",
             "name": "LT Ing. Sistemi Medicali",
-            "year": "2&#176; - Cognome AK",
+            "year": "2° - Cognome AK",
             "yearClean": "2 Cognome AK",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6a421f58ed5001e31ac2d"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6a421f58ed5001e31ac2d"
         },
         {
             "code": "1S_LT60",
             "name": "LT Ing. Sistemi Medicali",
-            "year": "2&#176; - Cognome LZ",
+            "year": "2° - Cognome LZ",
             "yearClean": "2 Cognome LZ",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6af08aa83ee001d1357de"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6af08aa83ee001d1357de"
         },
         {
             "code": "1S_LT60",
             "name": "LT Ing. Sistemi Medicali",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6b1c16408ef001987665e"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6b1c16408ef001987665e"
         },
         {
             "code": "1S_LM07",
             "name": "LM Automation and Robotics Eng.",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6c1778a0d600019c8997c"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6c1778a0d600019c8997c"
         },
         {
             "code": "1S_LM07",
             "name": "LM Automation and Robotics Eng.",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=6aaad3167c735b00dbda213a"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6aaad3167c735b00dbda213a"
         },
         {
             "code": "1S_LM17",
             "name": "LM Computer Science Eng.",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6e5397025e8001951d3bd"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6e5397025e8001951d3bd"
         },
         {
             "code": "1S_LM17",
             "name": "LM Computer Science Eng.",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6e9bfe15e57002086ced1"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6e9bfe15e57002086ced1"
         },
         {
             "code": "1S_LM08",
             "name": "LM Electronics Eng.",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68be83852477eb001e8f4383"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68be83852477eb001e8f4383"
         },
         {
             "code": "1S_LM08",
             "name": "LM Electronics Eng.",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=6aaad905503fbe00c675f012"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6aaad905503fbe00c675f012"
         },
         {
             "code": "1S_LM05",
             "name": "LM Ing. Elettrica",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b6f2b5f00207001e1f2d00"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b6f2b5f00207001e1f2d00"
         },
         {
             "code": "1S_LM05",
             "name": "LM Ing. Elettrica",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68b964052b78f7001e4d8a98"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68b964052b78f7001e4d8a98"
         },
         {
             "code": "1S_LM60",
             "name": "LM Ing. Sistemi Medicali",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68c837d6f7386f008799529f"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68c837d6f7386f008799529f"
         },
         {
             "code": "1S_LM60",
             "name": "LM Ing. Sistemi Medicali",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68bed3278ccabe00197bd65a"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68bed3278ccabe00197bd65a"
         },
         {
             "code": "1S_LM15",
             "name": "LM Telecommunications and Internet Tech. Eng.",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68bfd6aa8065e9001e817cea"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68bfd6aa8065e9001e817cea"
         },
         {
             "code": "1S_LM15",
             "name": "LM Telecommunications and Internet Tech. Eng.",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=6aaadd39b8480c00bc9c6768"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6aaadd39b8480c00bc9c6768"
         }
     ],
     "DICATECH": [
         {
             "code": "1S_LM01",
             "name": "LM Ing. Civile",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68caef300c77c600aff588db"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68caef300c77c600aff588db"
         },
         {
             "code": "1S_LM01",
             "name": "LM Ing. Civile",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68caefffdc3079009b9dd38f"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68caefffdc3079009b9dd38f"
         },
         {
             "code": "1S_LM02",
             "name": "LM Ing. Sistemi Edilizi",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd345cd8cd9e001ebbc7a0"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd345cd8cd9e001ebbc7a0"
         },
         {
             "code": "1S_LM02",
             "name": "LM Ing. Sistemi Edilizi",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd34f935194e0037d9b721"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd34f935194e0037d9b721"
         },
         {
             "code": "1S_LM63",
             "name": "LM Ing. Ambiente & Territorio",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ca71a9e2dfeb009bd40ad7"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ca71a9e2dfeb009bd40ad7"
         },
         {
             "code": "1S_LM63",
             "name": "LM Ing. Ambiente & Territorio",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68ca721400458400913e07b9"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68ca721400458400913e07b9"
         },
         {
             "code": "1S_LM40",
-            "name": "LM Ing. della Mobilit&#224; Sostenibile",
-            "year": "1&#176;",
+            "name": "LM Ing. della Mobilità Sostenibile",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cf09e7354de0002d5b4375"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cf09e7354de0002d5b4375"
         },
         {
             "code": "1S_LM40",
-            "name": "LM Ing. della Mobilit&#224; Sostenibile",
-            "year": "2&#176;",
+            "name": "LM Ing. della Mobilità Sostenibile",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=6aaab3eb7c735b00dbda1f9f"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6aaab3eb7c735b00dbda1f9f"
         },
         {
             "code": "1S_LM70",
             "name": "LM Ing. Gestione Infrastr. Civili",
-            "year": "1&#176;",
-            "yearClean": "1",
-            "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cade8789d025009b5559f8"
-        },
-        {
-            "code": "1S_LM70",
-            "name": "LM Ing. Gestione Infrastr. Civili",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cadeffe5fe1100bf1311d5"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cadeffe5fe1100bf1311d5"
         },
         {
             "code": "1S_LP16",
             "name": "LP Costr. & Gestione Ambientale & Territoriale",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cae6a70c77c600aff58865"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cae6a70c77c600aff58865"
         },
         {
             "code": "1S_LP16",
             "name": "LP Costr. & Gestione Ambientale & Territoriale",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cae6f0dc3079009b9dd35e"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cae6f0dc3079009b9dd35e"
         },
         {
             "code": "1S_LP16",
             "name": "LP Costr. & Gestione Ambientale & Territoriale",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cae71dc1a84f009b9de0c0"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cae71dc1a84f009b9de0c0"
         },
         {
             "code": "1S_LT02",
             "name": "LT Ing. Edile",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd61b2e7d7590019605034"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd61b2e7d7590019605034"
         },
         {
             "code": "1S_LT02",
             "name": "LT Ing. Edile",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd62175fc852001f70bed6"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd62175fc852001f70bed6"
         },
         {
             "code": "1S_LT02",
             "name": "LT Ing. Edile",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd623fe7d7590019605125"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd623fe7d7590019605125"
         },
         {
             "code": "1S_LT16",
             "name": "LT Ing. Civile & Ambientale",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68c92db1f3e94100914b4131"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68c92db1f3e94100914b4131"
         },
         {
             "code": "1S_LT16",
             "name": "LT Ing. Civile & Ambientale",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68c947cae3e17a0069c50673"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68c947cae3e17a0069c50673"
         },
         {
             "code": "1S_LT16",
             "name": "LT Ing. Civile & Ambientale",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68c94b5e400b650073c2b9a7"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68c94b5e400b650073c2b9a7"
         }
     ],
     "DMMM": [
         {
             "code": "1S_LM10",
             "name": "LM Ing. Energetica",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd39e2354de0002d5b32d6"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd39e2354de0002d5b32d6"
         },
         {
             "code": "1S_LM10",
             "name": "LM Ing. Energetica",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3a4945511e0019ba7246"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3a4945511e0019ba7246"
         },
         {
             "code": "1S_LM13",
             "name": "LM Ing. Gestionale",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cb18008b544500a509d6ee"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cb18008b544500a509d6ee"
         },
         {
             "code": "1S_LM13",
             "name": "LM Ing. Gestionale",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cb18f5c1a84f009b9de187"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cb18f5c1a84f009b9de187"
         },
         {
             "code": "1S_LM30",
             "name": "LM Ing. Meccanica",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3ae435194e0037d9b9a3"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3ae435194e0037d9b9a3"
         },
         {
             "code": "1S_LM30",
             "name": "LM Ing. Meccanica",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3b6304ce59001efaa566"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3b6304ce59001efaa566"
         },
         {
             "code": "1S_LM31",
             "name": "LM Mechanical Engineering",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3cb36fca320038785972"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3cb36fca320038785972"
         },
         {
             "code": "1S_LM31",
             "name": "LM Mechanical Engineering",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3d29d8cd9e001ebbcaf5"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3d29d8cd9e001ebbcaf5"
         },
         {
             "code": "1S_LT03",
             "name": "LT Ing. Gestionale",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3dc335194e0037d9ba20"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3dc335194e0037d9ba20"
         },
         {
             "code": "1S_LT03",
             "name": "LT Ing. Gestionale",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3e8c35194e0037d9ba38"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3e8c35194e0037d9ba38"
         },
         {
             "code": "1S_LT03",
             "name": "LT Ing. Gestionale",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3ee8d90a8a001a8fb083"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3ee8d90a8a001a8fb083"
         },
         {
             "code": "1S_LT31",
             "name": "LT Ing. Meccanica",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd3f9e04ce59001efaa628"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd3f9e04ce59001efaa628"
         },
         {
             "code": "1S_LT31",
             "name": "LT Ing. Meccanica",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd400cd90a8a001a8fb0b2"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd400cd90a8a001a8fb0b2"
         },
         {
             "code": "1S_LT31",
             "name": "LT Ing. Meccanica",
-            "year": "3&#176;",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://poliba.prod.up.cineca.it//calendarioPubblico/linkCalendarioId=68cd406435194e0037d9bd14"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd406435194e0037d9bd14"
+        },
+        {
+            "code": "1S_LT35",
+            "name": "LT Management Engineering For Innovation",
+            "year": "1°",
+            "yearClean": "1",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6aad67357c735b00dbda90de"
         }
     ],
     "TARANTO": [
         {
-            "code": "",
-            "name": "LT Ing. Aerospaziale",
-            "year": "1&#176;",
+            "code": "1S_LT16",
+            "name": "LT Ing. Civile e Ambientale",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201-3%20anno%20L%20Aerospazio.pdf"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6926cdf8fff872001965c98f"
         },
         {
-            "code": "",
-            "name": "LT Ing. Aerospaziale",
-            "year": "2&#176;",
+            "code": "1S_LT16",
+            "name": "LT Ing. Civile e Ambientale",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201-3%20anno%20L%20Aerospazio.pdf"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6926cedc3d83e0001ede46cd"
         },
         {
-            "code": "",
-            "name": "LT Ing. Aerospaziale",
-            "year": "3&#176;",
+            "code": "1S_LT16",
+            "name": "LT Ing. Civile e Ambientale",
+            "year": "3°",
             "yearClean": "3",
             "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201-3%20anno%20L%20Aerospazio.pdf"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6926d08cfff872001965c9eb"
         },
         {
-            "code": "",
-            "name": "LT Ing. Civile e Ambientale",
-            "year": "1&#176;",
-            "yearClean": "1",
-            "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20L%20civ-amb.pdf"
-        },
-        {
-            "code": "",
-            "name": "LT Ing. Civile e Ambientale",
-            "year": "2&#176;",
-            "yearClean": "2",
-            "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20L%20civ-amb.pdf"
-        },
-        {
-            "code": "",
-            "name": "LT Ing. Civile e Ambientale",
-            "year": "3&#176;",
-            "yearClean": "3",
-            "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20L%20civ-amb.pdf"
-        },
-        {
-            "code": "",
-            "name": "LT P-Tech",
-            "year": "1&#176;",
-            "yearClean": "1",
-            "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20p-yech.pdf"
-        },
-        {
-            "code": "",
-            "name": "LT P-Tech",
-            "year": "2&#176;",
-            "yearClean": "2",
-            "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20p-yech.pdf"
-        },
-        {
-            "code": "",
-            "name": "LT P-Tech",
-            "year": "3&#176;",
-            "yearClean": "3",
-            "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20p-yech.pdf"
-        },
-        {
-            "code": "",
+            "code": "1S_LM63",
             "name": "LM Ing. Civile e Ambientale",
-            "year": "1&#176;",
+            "year": "1°",
             "yearClean": "1",
             "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20LM%20civ-amb.pdf"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cb3ac037a2d500b9165a8f"
         },
         {
-            "code": "",
+            "code": "1S_LM63",
             "name": "LM Ing. Civile e Ambientale",
-            "year": "2&#176;",
+            "year": "2°",
             "yearClean": "2",
             "semester": "1S",
-            "link": "https://www.poliba.it/sites/default/files/TTEC/Orario%201%20sem%20LM%20civ-amb.pdf"
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cb3b06e2153000a551c887"
+        },
+        {
+            "code": "1S_LT41R",
+            "name": "LT Ing. Aerospaziale",
+            "year": "1°",
+            "yearClean": "1",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6907546f899b8b0069591dee"
+        },
+        {
+            "code": "1S_LT41R",
+            "name": "LT Ing. Aerospaziale",
+            "year": "2°",
+            "yearClean": "2",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=690764ebc7f6f3005f1e298a"
+        },
+        {
+            "code": "1S_LT41R",
+            "name": "LT Ing. Aerospaziale",
+            "year": "3°",
+            "yearClean": "3",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6907653382725a005fdb0539"
+        },
+        {
+            "code": "1S_LT17-28",
+            "name": "LT Ing. Informatica P-Tech",
+            "year": "1°",
+            "yearClean": "1",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=69399be9f69e560019dec5ca"
+        },
+        {
+            "code": "1S_LT17-28",
+            "name": "LT Ing. Informatica P-Tech (Mariscuola 2° anno)",
+            "year": "2°",
+            "yearClean": "2",
+            "semester": "1S",
+            "link": "https://www.poliba.it/it/ttec-taranto-politecnico"
+        },
+        {
+            "code": "1S_LT17-28",
+            "name": "LT Ing. Informatica P-Tech",
+            "year": "3°",
+            "yearClean": "3",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=690753f7d3a5600055bdefe0"
+        }
+    ],
+    "ArCoD": [
+        {
+            "code": "ARCOD_ARC",
+            "name": "LM CICLO UNICO ARCHITETTURA",
+            "year": "Tutti gli anni",
+            "yearClean": "Orario Completo",
+            "semester": "1S",
+            "link": "https://drive.google.com/file/d/1r1t0JyY7wsLx_byCWB9RAqM018DysTG7/view?usp=sharing",
+            "isDirect": true
+        },
+        {
+            "code": "ARCOD_DES",
+            "name": "LT DESIGN",
+            "year": "Tutti gli anni",
+            "yearClean": "Orario Completo",
+            "semester": "1S",
+            "link": "https://drive.google.com/file/d/1jFWhkNBi4SKQCeGEZqcZEDg8s2gnCfBI/view?usp=sharing",
+            "isDirect": true
         }
     ]
 }
-    

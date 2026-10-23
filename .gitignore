@@ -16,3 +16,7 @@ University Planner.html
 .idea/
 .DS_Store
 Thumbs.db
+
+#File superflui
+*.ts
+scrape_poliba_orari.py

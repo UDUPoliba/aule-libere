@@ -27,6 +27,91 @@ def to_hhmm(minutes: int) -> str:
 def popola_archivio_da_grezzo(
     raw_path="orari_scraped.json", archive_path="up_archive.json"
 ):
+    """Legge il file grezzo di scraping, filtra PDF e Drive esterni (ArCoD),
+
+    normalizza gli URL, deduplica i calendari identici e salva up_archive.json.
+    """
+    if not os.path.exists(raw_path):
+        raise FileNotFoundError(f"File grezzo '{raw_path}' non trovato.")
+
+    with open(raw_path, "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
+
+    # Dizionario con chiave = linkCalendarioId per deduplicare
+    unique_links = {}
+
+    for dipartimento, lista_corsi in raw_data.items():
+        if not isinstance(lista_corsi, list):
+            continue
+
+        for item in lista_corsi:
+            url_raw = item.get("link", "").strip()
+
+            # 1. Ignora PDF, Google Drive (ArCoD) o link che non appartengono a UP Cineca
+            if (
+                not url_raw
+                or item.get("isDirect") is True
+                or ".pdf" in url_raw.lower()
+                or "drive.google.com" in url_raw.lower()
+                or "cineca.it" not in url_raw
+            ):
+                continue
+
+            # 2. Estrai il linkCalendarioId univoco (gestisce sia path che query param)
+            match_id = re.search(r"linkCalendarioId=([a-f0-9]+)", url_raw)
+            if not match_id:
+                continue
+
+            link_id = match_id.group(1)
+            # URL pulito e normalizzato (rimuove eventuali doppi slash //calendarioPubblico)
+            url_pulito = f"https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId={link_id}"
+
+            # Etichetta leggibile e pulita
+            nome_corso = item.get("name", "").strip()
+            anno_pulito = item.get("yearClean") or item.get("year", "")
+            anno_pulito = re.sub(r"&#176;", "°", str(anno_pulito)).strip()
+            label = f"[{dipartimento}] {nome_corso} ({anno_pulito})"
+
+            if link_id not in unique_links:
+                unique_links[link_id] = {
+                    "link_id": link_id,
+                    "url": url_pulito,
+                    "dipartimenti": [dipartimento],
+                    "descrizioni": [label],
+                }
+            else:
+                if dipartimento not in unique_links[link_id]["dipartimenti"]:
+                    unique_links[link_id]["dipartimenti"].append(dipartimento)
+                if label not in unique_links[link_id]["descrizioni"]:
+                    unique_links[link_id]["descrizioni"].append(label)
+
+    # Costruisci l'archivio strutturato
+    archive_payload = {
+        "generato_il": datetime.now().isoformat(),
+        "config": {
+            "ora_inizio_giornata": ORA_INIZIO_DEFAULT,
+            "ora_fine_giornata": ORA_FINE_DEFAULT,
+            "giorni_lavorativi": GIORNI_DEFAULT,
+        },
+        "links": [
+            {
+                "link_id": v["link_id"],
+                "descrizione": " / ".join(v["descrizioni"]),
+                "dipartimento": ", ".join(v["dipartimenti"]),
+                "url": v["url"],
+            }
+            for v in unique_links.values()
+        ],
+    }
+
+    with open(archive_path, "w", encoding="utf-8") as f:
+        json.dump(archive_payload, f, indent=2, ensure_ascii=False)
+
+    print(
+        f"[OK] Archivio '{archive_path}' popolato con successo: "
+        f"{len(archive_payload['links'])} calendari Cineca UP univoci estratti."
+    )
+    return archive_payload
     """Legge il file grezzo di scraping, filtra i PDF, normalizza gli URL,
 
     deduplica i calendari identici e salva up_archive.json.
