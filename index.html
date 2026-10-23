@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aule Libere • UDU PoliBa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="udu-header">
+    <div class="header-inner">
+      <div>
+        <h1 class="brand-title">AULE LIBERE • <span>UDU POLIBA</span></h1>
+        <p class="brand-sub">Mappa delle disponibilità orarie aggiornata da University Planner</p>
+      </div>
+      <div id="db-badge" class="badge-status">
+        Caricamento dati...
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-wrapper">
+
+    <!-- Navigazione Viste -->
+    <nav class="tab-bar">
+      <button id="tab-btn-slot" onclick="cambiaVista('slot')" class="tab-btn active-tab">
+        Trova Aule Libere
+      </button>
+      <button id="tab-btn-aule" onclick="cambiaVista('aule')" class="tab-btn">
+        Dettaglio per Aula
+      </button>
+      <button id="tab-btn-giorno" onclick="cambiaVista('giorno')" class="tab-btn">
+        Panoramica Giornaliera
+      </button>
+    </nav>
+
+    <!-- VISTA 1: Ricerca per Slot -->
+    <section id="vista-slot">
+      <div class="card-panel">
+        <div class="form-grid">
+          <div>
+            <label class="input-label">Giorno</label>
+            <select id="slot-giorno" class="custom-select">
+              <option value="Lunedì">Lunedì</option>
+              <option value="Martedì">Martedì</option>
+              <option value="Mercoledì">Mercoledì</option>
+              <option value="Giovedì">Giovedì</option>
+              <option value="Venerdì">Venerdì</option>
+              <option value="Sabato">Sabato</option>
+            </select>
+          </div>
+          <div>
+            <label class="input-label">Dalle ore</label>
+            <input type="time" id="slot-inizio" value="08:30" min="08:30" max="20:00" step="1800" class="custom-input">
+          </div>
+          <div>
+            <label class="input-label">Alle ore</label>
+            <input type="time" id="slot-fine" value="11:00" min="08:30" max="20:00" step="1800" class="custom-input">
+          </div>
+          <div>
+            <button onclick="cercaAuleLibere()" class="udu-btn">
+              CERCA AULE
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="results-header">
+        <h2>Aule disponibili nello slot</h2>
+        <span id="slot-conteggio" class="badge-count">0 aule</span>
+      </div>
+
+      <div id="slot-risultati-griglia" class="room-grid">
+        <!-- Popolato dinamicamente da app.js -->
+      </div>
+    </section>
+
+    <!-- VISTA 2: Dettaglio Tutte le Aule -->
+    <section id="vista-aule" class="hidden">
+      <div class="card-panel" style="margin-bottom: 1.25rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+          <div>
+            <label class="input-label">Cerca Aula</label>
+            <input type="text" id="filtro-nome-aula" placeholder="Es. Aula E, Aula G..." oninput="renderVistaAule()" class="custom-input">
+          </div>
+          <div>
+            <label class="input-label">Filtra per Giorno</label>
+            <select id="filtro-giorno-aula" onchange="renderVistaAule()" class="custom-select">
+              <option value="TUTTI">Tutta la settimana</option>
+              <option value="Lunedì">Lunedì</option>
+              <option value="Martedì">Martedì</option>
+              <option value="Mercoledì">Mercoledì</option>
+              <option value="Giovedì">Giovedì</option>
+              <option value="Venerdì">Venerdì</option>
+              <option value="Sabato">Sabato</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="aule-lista">
+        <!-- Popolato dinamicamente da app.js -->
+      </div>
+    </section>
+
+    <!-- VISTA 3: Panoramica Giornaliera -->
+    <section id="vista-giorno" class="hidden">
+      <div class="card-panel" style="margin-bottom: 1.25rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+          <div>
+            <label class="input-label">Seleziona Giorno</label>
+            <select id="panoramica-giorno" onchange="renderPanoramicaGiorno()" class="custom-select">
+              <option value="Lunedì">Lunedì</option>
+              <option value="Martedì">Martedì</option>
+              <option value="Mercoledì">Mercoledì</option>
+              <option value="Giovedì">Giovedì</option>
+              <option value="Venerdì">Venerdì</option>
+              <option value="Sabato">Sabato</option>
+            </select>
+          </div>
+          <div>
+            <label class="input-label">Disponibilità minima</label>
+            <select id="panoramica-durata-minima" onchange="renderPanoramicaGiorno()" class="custom-select">
+              <option value="30">30 minuti</option>
+              <option value="60" selected>1 ora</option>
+              <option value="90">1 ora e mezza</option>
+              <option value="120">2 ore</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-panel" style="padding: 0; overflow-x: auto;">
+        <div id="panoramica-tabella">
+          <!-- Popolato dinamicamente da app.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="udu-footer">
+    A cura di <strong>UDU Politecnico di Bari</strong> • Orari ufficiali University Planner (Fascia 08:30 - 20:00)
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
