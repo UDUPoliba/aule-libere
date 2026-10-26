@@ -7,10 +7,11 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 import up_scraper
 
-# Fasce standard richieste
 ORA_INIZIO_DEFAULT = "08:30"
 ORA_FINE_DEFAULT = "20:00"
 GIORNI_DEFAULT = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"]
+
+PATTERN_TARANTO = re.compile(r"\b(TTEC|TARANTO|DIASS)\b|_TA\b", re.IGNORECASE)
 
 
 def to_minutes(hhmm: str) -> int:
@@ -27,7 +28,7 @@ def to_hhmm(minutes: int) -> str:
 def popola_archivio_da_grezzo(
     raw_path="orari_scraped.json", archive_path="up_archive.json"
 ):
-    """Legge il file grezzo di scraping, filtra PDF, Drive esterni (ArCoD) e Taranto,
+    """Legge il file grezzo di scraping, filtra PDF, Drive esterni e Taranto,
     normalizza gli URL, deduplica i calendari identici e salva up_archive.json.
     """
     if not os.path.exists(raw_path):
@@ -36,7 +37,6 @@ def popola_archivio_da_grezzo(
     with open(raw_path, "r", encoding="utf-8") as f:
         raw_data = json.load(f)
 
-    # Controllo di sicurezza: intercetta errori 404 di GitHub
     if isinstance(raw_data, dict) and raw_data.get("status") == "404":
         raise RuntimeError(
             f"ERRORE: '{raw_path}' contiene una risposta 404 dalle API GitHub.\n"
@@ -49,19 +49,19 @@ def popola_archivio_da_grezzo(
         if not isinstance(lista_corsi, list):
             continue
 
-        # 1. Esclude l'intero dipartimento/polo di Taranto
-        if "TARANTO" in dipartimento.upper():
+        # 1. Esclude dipartimenti esplicitamente assegnati al polo di Taranto
+        if PATTERN_TARANTO.search(dipartimento):
             continue
 
         for item in lista_corsi:
             url_raw = item.get("link", "").strip()
             nome_corso = item.get("name", "").strip()
 
-            # 2. Esclude corsi specifici con sede Taranto
-            if "TARANTO" in nome_corso.upper():
+            # 2. Esclude corsi la cui dicitura dichiara sede a Taranto
+            if PATTERN_TARANTO.search(nome_corso):
                 continue
 
-            # 3. Ignora PDF, Google Drive (ArCoD) o link che non appartengono a UP Cineca
+            # 3. Ignora file esterni, PDF o Drive (es. ArCoD)
             if (
                 not url_raw
                 or item.get("isDirect") is True
@@ -71,7 +71,7 @@ def popola_archivio_da_grezzo(
             ):
                 continue
 
-            # 4. Estrai il linkCalendarioId univoco
+            # 4. Estrae ID univoco linkCalendarioId
             match_id = re.search(r"linkCalendarioId=([a-f0-9]+)", url_raw)
             if not match_id:
                 continue
@@ -120,14 +120,13 @@ def popola_archivio_da_grezzo(
         json.dump(archive_payload, f, indent=2, ensure_ascii=False)
 
     print(
-        f"[OK] Archivio '{archive_path}' popolato con successo (senza Taranto): "
+        f"[OK] Archivio '{archive_path}' popolato con successo: "
         f"{len(archive_payload['links'])} calendari Cineca UP estratti."
     )
     return archive_payload
 
 
 def calcola_fasce_libere(lezioni, ora_inizio_day="08:30", ora_fine_day="20:00"):
-    """Fonde gli intervalli occupati e calcola le finestre di disponibilità libera."""
     start_day = to_minutes(ora_inizio_day)
     end_day = to_minutes(ora_fine_day)
 
@@ -203,7 +202,7 @@ def build_aggregated_db(
         context = browser.new_context(
             viewport={"width": 1920, "height": 1080},
             timezone_id="Europe/Rome",
-            locale="it-IT"
+            locale="it-IT",
         )
 
         for i, item in enumerate(links, 1):
@@ -228,15 +227,11 @@ def build_aggregated_db(
         aula = lz["aula"]
         giorno = lz["giorno"]
 
-        # Filtro aule nulle, non lavorative o appartenenti al polo di Taranto
         if (
             not aula
             or aula == "N/D"
             or not giorno
             or giorno not in giorni_lavorativi
-            or "TARANTO" in aula.upper()
-            or "- TA" in aula.upper()
-            or "(TA)" in aula.upper()
         ):
             continue
 
