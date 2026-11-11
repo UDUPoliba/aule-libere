@@ -221,6 +221,19 @@ def build_aggregated_db(
     print(
         f"\n[FASE 3] Aggregazione di {len(tutte_lezioni)} impegni complessivi..."
     )
+
+# --- INIEZIONE ARCOD ---
+    arcod_path = "arcod_lezioni.json"
+    if os.path.exists(arcod_path):
+        try:
+            with open(arcod_path, "r", encoding="utf-8") as f:
+                arcod_lez = json.load(f)
+            tutte_lezioni.extend(arcod_lez)
+            print(f"[OK] Integrate {len(arcod_lez)} lezioni dai prospetti ArCoD.")
+        except Exception as e:
+            print(f"[!] Errore nel caricamento di {arcod_path}: {e}", file=sys.stderr)
+    # -----------------------
+
     aule_db = {}
 
     for lz in tutte_lezioni:

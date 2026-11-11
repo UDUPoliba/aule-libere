@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generato_il": "2026-10-26T23:03:46.873971",
+    "generato_il": "2026-11-11T23:42:19.328384",
     "fascia_giornaliera": "08:30 - 20:00",
-    "totale_aule": 43,
+    "totale_aule": 57,
     "totale_corsi_elaborati": 70
   },
   "aule": {
@@ -3177,6 +3177,15 @@
             "partizione": null
           },
           {
+            "orario_inizio": "10:50",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "MARKETING INDUSTRIALE",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
             "orario_inizio": "11:00",
             "orario_fine": "13:30",
             "nome_insegnamento": "MARKETING E CUSTOMER ANALYTICS - MARKETING  (1 Modulo)",
@@ -3392,6 +3401,15 @@
             "corso_di_studio": "INGEGNERIA GESTIONALE (D.M.270/04)",
             "anno_corso": "3",
             "eventuale_percorso": "INFORMAZIONE",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "10:00",
+            "orario_fine": "11:40",
+            "nome_insegnamento": "MARKETING INDUSTRIALE",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
             "partizione": null
           },
           {
@@ -5749,17 +5767,59 @@
     },
     "Aula MAGNA": {
       "Lunedì": {
-        "lezioni": [],
-        "fasce_libere": [
+        "lezioni": [
           {
             "orario_inizio": "08:30",
+            "orario_fine": "10:50",
+            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LUCE SUONO CLIMA",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "STORIA DEL DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
             "orario_fine": "20:00",
-            "durata_minuti": 690
+            "durata_minuti": 90
           }
         ]
       },
       "Martedì": {
         "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "ISTITUZIONI DI MATEMATICA E GEOMETRIA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
           {
             "orario_inizio": "11:50",
             "orario_fine": "13:30",
@@ -5768,23 +5828,50 @@
             "anno_corso": "1",
             "eventuale_percorso": "comune",
             "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "ISTITUZIONI DI MATEMATICA E GEOMETRIA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
           }
         ],
         "fasce_libere": [
           {
-            "orario_inizio": "08:30",
-            "orario_fine": "11:50",
-            "durata_minuti": 200
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
           },
           {
-            "orario_inizio": "13:30",
+            "orario_inizio": "18:30",
             "orario_fine": "20:00",
-            "durata_minuti": 390
+            "durata_minuti": 90
           }
         ]
       },
       "Mercoledì": {
         "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA III",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
           {
             "orario_inizio": "14:30",
             "orario_fine": "17:00",
@@ -5797,6 +5884,15 @@
               "descrizione": "Iniziali cognome L-Z",
               "descrizione_EN": null
             }
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
           },
           {
             "orario_inizio": "17:00",
@@ -5814,9 +5910,9 @@
         ],
         "fasce_libere": [
           {
-            "orario_inizio": "08:30",
+            "orario_inizio": "13:30",
             "orario_fine": "14:30",
-            "durata_minuti": 360
+            "durata_minuti": 60
           },
           {
             "orario_inizio": "18:40",
@@ -5837,6 +5933,24 @@
             "partizione": null
           },
           {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:00",
+            "nome_insegnamento": "LABORATORIO DI INTERIOR ED EXIBIT DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
             "orario_inizio": "11:00",
             "orario_fine": "13:30",
             "nome_insegnamento": "RISK MANAGEMENT",
@@ -5848,11 +5962,6 @@
         ],
         "fasce_libere": [
           {
-            "orario_inizio": "10:10",
-            "orario_fine": "11:00",
-            "durata_minuti": 50
-          },
-          {
             "orario_inizio": "13:30",
             "orario_fine": "20:00",
             "durata_minuti": 390
@@ -5860,12 +5969,22 @@
         ]
       },
       "Venerdì": {
-        "lezioni": [],
-        "fasce_libere": [
+        "lezioni": [
           {
             "orario_inizio": "08:30",
+            "orario_fine": "10:50",
+            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "10:50",
             "orario_fine": "20:00",
-            "durata_minuti": 690
+            "durata_minuti": 550
           }
         ]
       },
@@ -5903,7 +6022,7 @@
           },
           {
             "orario_inizio": "14:30",
-            "orario_fine": "17:00",
+            "orario_fine": "18:40",
             "nome_insegnamento": "PROCESSI DI FABBRICAZIONE PER VEICOLI LEGGERI - PROCESSI DI FABBRICAZIONE PER VEICOLI",
             "corso_di_studio": "INGEGNERIA MECCANICA (D.M. 270/04)",
             "anno_corso": "1",
@@ -5923,9 +6042,9 @@
             "durata_minuti": 60
           },
           {
-            "orario_inizio": "17:00",
+            "orario_inizio": "18:40",
             "orario_fine": "20:00",
-            "durata_minuti": 180
+            "durata_minuti": 80
           }
         ]
       },
@@ -5948,6 +6067,15 @@
             "anno_corso": "1",
             "eventuale_percorso": "comune",
             "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "16:10",
+            "nome_insegnamento": "PROGETTO DI FONDAZIONI",
+            "corso_di_studio": "INGEGNERIA DEI SISTEMI EDILIZI (D.M.270/04)",
+            "anno_corso": "2",
+            "eventuale_percorso": "comune",
+            "partizione": null
           }
         ],
         "fasce_libere": [
@@ -5958,8 +6086,13 @@
           },
           {
             "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "16:10",
             "orario_fine": "20:00",
-            "durata_minuti": 390
+            "durata_minuti": 230
           }
         ]
       },
@@ -7405,6 +7538,15 @@
       "Giovedì": {
         "lezioni": [
           {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI INTERIOR ED EXIBIT DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
             "orario_inizio": "11:00",
             "orario_fine": "13:30",
             "nome_insegnamento": "RISORSE IDRICHE",
@@ -7424,11 +7566,6 @@
           }
         ],
         "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "11:00",
-            "durata_minuti": 150
-          },
           {
             "orario_inizio": "13:30",
             "orario_fine": "14:30",
@@ -9112,15 +9249,6 @@
             "partizione": null
           },
           {
-            "orario_inizio": "10:10",
-            "orario_fine": "11:50",
-            "nome_insegnamento": "PROGETTO DI FONDAZIONI",
-            "corso_di_studio": "INGEGNERIA DEI SISTEMI EDILIZI (D.M.270/04)",
-            "anno_corso": "2",
-            "eventuale_percorso": "comune",
-            "partizione": null
-          },
-          {
             "orario_inizio": "11:50",
             "orario_fine": "13:30",
             "nome_insegnamento": "GEOINGEGNERIA.",
@@ -9149,6 +9277,11 @@
           }
         ],
         "fasce_libere": [
+          {
+            "orario_inizio": "10:10",
+            "orario_fine": "11:50",
+            "durata_minuti": 100
+          },
           {
             "orario_inizio": "13:30",
             "orario_fine": "14:30",
@@ -11621,6 +11754,2024 @@
             "orario_inizio": "08:30",
             "orario_fine": "20:00",
             "durata_minuti": 690
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula A (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 1° DI PROGETTAZIONE ARCHITETTONICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:30",
+            "nome_insegnamento": "CARATTERI TIPOLOGICI DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "11:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN FOCUSED ON MEANING AND FUNCTIONS FOR INCLUSION (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "10:30",
+            "orario_fine": "11:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI RESTAURO",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "DESIGN FOR EXHIBITION AND PERFORMATIVE PRACTICES",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:30",
+            "nome_insegnamento": "ARC. FORME STRUTTURALI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LABORATORIO DI RAPPRESENTAZIONE VISIVA A",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "10:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 240
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI DESIGN DEL PRODOTTO A",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula B (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "URBANISTICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "URBANISTICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN FOR EXHIBITION AND PERFORMATIVE PRACTICES",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA I",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "FONDAMENTI E APPLICAZIONI DI GEOMETRIA DESCRITTIVA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "ARCHEOLOGIA CLASSICA 1",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:00",
+            "orario_fine": "16:00",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA I",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LABORATORIO DI DESIGN DEL PRODOTTO A",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:00",
+            "durata_minuti": 30
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI METODI INGEGNERISTICI PER IL DESIGN B",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula C (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STATICA A",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "URBANISTICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "URBANISTICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "TECNOLOGIE INFORMATICHE PER IL DESIGN (OPZ.)",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "TEORIA DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "09:00",
+            "orario_fine": "17:00",
+            "nome_insegnamento": "STATICA A / STATICA B",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "TEORIA DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA I",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "FONDAMENTI E APPLICAZIONI DI GEOMETRIA DESCRITTIVA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STRUMENTI CONOSCITIVI PER IL RESTAURO",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LABORATORIO DI INTERIOR ED EXIBIT DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "TRANSIZIONE ECOLOGICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "5",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LABORATORIO DI RAPPRESENTAZIONE VISIVA A e B",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula D (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 1° DI PROGETTAZIONE ARCHITETTONICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:30",
+            "nome_insegnamento": "GESTIONE DELL'INNOVAZIONE E DEL PRODOTTO",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "SOCIOLOGIA PER IL DESIGN (OPZ.)",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:30",
+            "nome_insegnamento": "GESTIONE DELL'INNOVAZIONE E DEL PRODOTTO",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "TEORIA DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "FONDAMENTI DI FILOSOFIA DEI LINGUAGGI (OPZ.)",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI RESTAURO",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "RILIEVO DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "GRAMMATICA DELLA FORMA URBANA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "PROGETTAZIONE DEL PAESAGGIO URBANO",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula E (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 1° DI PROGETTAZIONE ARCHITETTONICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "HUMAN COMPUTER INTERACTIONS (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "SOCIOLOGIA URBANA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "5",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "FONDAMENTI DI TEXTILE DESIGN (OPZ.)",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI RESTAURO",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "RILIEVO DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "ARCHEOLOGIA CLASSICA 1",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:00",
+            "orario_fine": "16:00",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA I",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:00",
+            "durata_minuti": 30
+          },
+          {
+            "orario_inizio": "16:00",
+            "orario_fine": "20:00",
+            "durata_minuti": 240
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LABORATORIO DI PROPRIETA' MATERICHE PER IL DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 360
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula I1 (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "FISICA TECNICA AMBIENTALE I B",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "FISICA TECNICA AMBIENTALE I",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA III",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 2° COSTRUZIONE DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "15:30",
+            "nome_insegnamento": "STRUCTURAL MECHANICS",
+            "corso_di_studio": "ARCHITECTURAL HERITAGE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "FORME COSTRUTTIVE DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 2° COSTRUZIONE DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula L1 (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "FISICA TECNICA AMBIENTALE I B",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LUCE SUONO CLIMA B",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "URBANISTICA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LUCE SUONO CLIMA A",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "FISICA TECNICA AMBIENTALE I",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "TEORIA DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 2° COSTRUZIONE DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "PROGETTAZIONE PER IL PATRIMONIO",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO 2° COSTRUZIONE DELL'ARCHITETTURA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula F (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "LABORATORIO DI INTERAZIONI DIGITALI PER IL PROGETTO",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 360
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI PROPRIETA' MATERICHE PER IL DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "LABORATORIO DI PROPRIETA' MATERICHE PER IL DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "11:00",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LABORATORIO DI INTERAZIONI DIGITALI PER IL PROGETTO",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:00",
+            "durata_minuti": 150
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "LABORATORIO DI RAPPRESENTAZIONE VISIVA A e B",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 360
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula F3 (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "IMMERSIVE EXPERIENCE FOR DESIGN",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "OPEN DATA AND SEMANTIC WEB (DCC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": "DCC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:30",
+            "nome_insegnamento": "TEORIA E STORIA DELLA FORMA URBANA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "11:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 510
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "SCENARIO BASED DESIGN",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "SCENARIO BASED DESIGN",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula F4 (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN FOCUSED ON MEANING AND FUNCTIONS FOR INCLUSION",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "DESIGN FOCUSED ON MEANING AND FUNCTIONS FOR INCLUSION (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "10:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "MODELLI DI BUSINESS (OPZ.)",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "STRUMENTI CONOSCITIVI PER L'ANTICO 2",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "4",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:30",
+            "durata_minuti": 120
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "09:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "GENERATIVE AI FOR DESIGN",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "09:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN FOR INTERACTIVE EXPERIENCE OF PEOPLES AND SYSTEMS (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "16:30",
+            "nome_insegnamento": "DESIGN FOR INTERACTIVE EXPERIENCE OF PEOPLES AND SYSTEMS (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "16:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "TERRITORIAL ECOLOGIES FOR DESIGN",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN FOR INTERACTIVE EXPERIENCE OF PEOPLES AND SYSTEMS (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "DESIGN FOR INTERACTIVE EXPERIENCE OF PEOPLES AND SYSTEMS (DTC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DTC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula F5 (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "LABORATORIO DI METODI INGEGNERISTICI PER IL DESIGN A",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "METODOLOGIA DELLA PROGETTAZIONE PER LA COMUNICAZIONE VISIVA",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 360
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula Centineo (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:00",
+            "nome_insegnamento": "LABORATORIO DI INTERIOR ED EXIBIT DESIGN (TEORIA E CRITICA)",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "11:00",
+            "orario_fine": "20:00",
+            "durata_minuti": 540
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Sala Consiglio (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:30",
+            "nome_insegnamento": "STRUMENTI CONOSCITIVI PER L'ANTICO 1",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "11:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 510
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
+    "Aula AAM (ARCOD)": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "ECONOMIC VALUATION FOR HERITAGE",
+            "corso_di_studio": "ARCHITECTURAL HERITAGE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "CONTEXTUAL DESIGN AND HERITAGE ACROSS FUTURE ECOL. SCEN.",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DCC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "09:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "CONTEXTUAL DESIGN AND HERITAGE ACROSS FUTURE ECOL. SCEN.",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DCC",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "DESIGN FOR TERRITORY AND INCLUSIVE COMMUNITIES (DCC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DCC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "09:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "17:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 150
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN STUDIO FOR ARCHITECTURAL HERITAGE",
+            "corso_di_studio": "ARCHITECTURAL HERITAGE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "DESIGN FOR TERRITORY AND INCLUSIVE COMMUNITIES",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DCC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN STUDIO FOR ARCHITECTURAL HERITAGE",
+            "corso_di_studio": "ARCHITECTURAL HERITAGE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "15:30",
+            "nome_insegnamento": "HISTORY OF ARCHITECTURE",
+            "corso_di_studio": "ARCHITECTURAL HERITAGE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "15:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 270
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "DESIGN FOR TERRITORY AND INCLUSIVE COMMUNITIES (DCC)",
+            "corso_di_studio": "LM DESIGN",
+            "anno_corso": "2",
+            "eventuale_percorso": "DCC",
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 390
           }
         ]
       },
