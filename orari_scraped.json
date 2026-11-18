@@ -79,6 +79,14 @@
             "yearClean": "1",
             "semester": "1S",
             "link": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd30695fc852001f70b4e8"
+        },
+        {
+            "code": "1S_Ins.COMUNI",
+            "name": "Ins.COMUNI ClasseO",
+            "year": "1°",
+            "yearClean": "1",
+            "semester": "1S",
+            "link": "https://poliba.prod.up.cineca.it:443/calendarioPubblico/linkCalendarioId=6afd860ec5e97801ef7b359f"
         }
     ],
     "DEI": [

@@ -1,5 +1,5 @@
 {
-  "generato_il": "2026-11-11T23:40:26.600425",
+  "generato_il": "2026-11-18T17:40:32.931076",
   "config": {
     "ora_inizio_giornata": "08:30",
     "ora_fine_giornata": "20:00",
@@ -72,6 +72,12 @@
       "descrizione": "[CORSI COMUNI] Ins.COMUNI ClasseM (1)",
       "dipartimento": "CORSI COMUNI",
       "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=68cd30695fc852001f70b4e8"
+    },
+    {
+      "link_id": "6afd860ec5e97801ef7b359f",
+      "descrizione": "[CORSI COMUNI] Ins.COMUNI ClasseO (1)",
+      "dipartimento": "CORSI COMUNI",
+      "url": "https://poliba.prod.up.cineca.it/calendarioPubblico/linkCalendarioId=6afd860ec5e97801ef7b359f"
     },
     {
       "link_id": "68af26e6dfe6dd001e93feb0",

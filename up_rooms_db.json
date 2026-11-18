@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generato_il": "2026-11-11T23:42:19.328384",
+    "generato_il": "2026-11-18T17:42:59.258461",
     "fascia_giornaliera": "08:30 - 20:00",
     "totale_aule": 57,
-    "totale_corsi_elaborati": 70
+    "totale_corsi_elaborati": 71
   },
   "aule": {
     "Aula A": {
@@ -3541,6 +3541,349 @@
         ]
       }
     },
+    "Aula MAGNA": {
+      "Lunedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:50",
+            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "LUCE SUONO CLIMA",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:00",
+            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (Modulo A)",
+            "corso_di_studio": "INGEGNERIA MECCANICA",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "STORIA DEL DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "17:00",
+            "orario_fine": "18:40",
+            "nome_insegnamento": "INFORMATICA PER L'INGEGNERIA",
+            "corso_di_studio": "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE",
+            "anno_corso": "1",
+            "eventuale_percorso": "SISTEMI E APPLICAZIONI INFORMATICHE",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:40",
+            "orario_fine": "20:00",
+            "durata_minuti": 80
+          }
+        ]
+      },
+      "Martedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:10",
+            "nome_insegnamento": "GEOMETRIA E ALGEBRA",
+            "corso_di_studio": "INGEGNERIA EDILE",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "ISTITUZIONI DI MATEMATICA E GEOMETRIA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "10:10",
+            "orario_fine": "11:50",
+            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (Modulo A)",
+            "corso_di_studio": "INGEGNERIA MECCANICA",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "11:50",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "MACCHINE A FLUIDO II E SISTEMI ENERGETICI II - MACCHINE A FLUIDO II ( 1° Modulo)",
+            "corso_di_studio": "INGEGNERIA MECCANICA (D.M. 270/04)",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "18:30",
+            "nome_insegnamento": "ISTITUZIONI DI MATEMATICA E GEOMETRIA",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "1",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 90
+          }
+        ]
+      },
+      "Mercoledì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:00",
+            "nome_insegnamento": "GEOMETRIA E ALGEBRA",
+            "corso_di_studio": "INGEGNERIA EDILE",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA III",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "11:00",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (Modulo A)",
+            "corso_di_studio": "INGEGNERIA MECCANICA",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:00",
+            "nome_insegnamento": "MECCANICA RAZIONALE",
+            "corso_di_studio": "INGEGNERIA MECCANICA",
+            "anno_corso": "2",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "A1\\LZ",
+              "descrizione": "Iniziali cognome L-Z",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "17:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "17:00",
+            "orario_fine": "18:40",
+            "nome_insegnamento": "PRINCIPI DI INGEGNERIA ELETTRICA",
+            "corso_di_studio": "INGEGNERIA MECCANICA",
+            "anno_corso": "2",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "A1\\LZ",
+              "descrizione": "Iniziali cognome L-Z",
+              "descrizione_EN": null
+            }
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:40",
+            "orario_fine": "20:00",
+            "durata_minuti": 80
+          }
+        ]
+      },
+      "Giovedì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:10",
+            "nome_insegnamento": "MECCANICA APPLICATA ALLE MACCHINE II",
+            "corso_di_studio": "INGEGNERIA MECCANICA (D.M. 270/04)",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "11:00",
+            "nome_insegnamento": "LABORATORIO DI INTERIOR ED EXIBIT DESIGN",
+            "corso_di_studio": "DISEGNO INDUSTRIALE",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "2",
+            "eventuale_percorso": null,
+            "partizione": null
+          },
+          {
+            "orario_inizio": "11:00",
+            "orario_fine": "13:30",
+            "nome_insegnamento": "RISK MANAGEMENT",
+            "corso_di_studio": "INGEGNERIA GESTIONALE (D.M.270/04)",
+            "anno_corso": "3",
+            "eventuale_percorso": "INFRASTRUTTURE",
+            "partizione": null
+          },
+          {
+            "orario_inizio": "14:30",
+            "orario_fine": "16:10",
+            "nome_insegnamento": "ANALISI MATEMATICA - ANALISI MATEMATICA (Modulo A)",
+            "corso_di_studio": "INGEGNERIA MECCANICA",
+            "anno_corso": "1",
+            "eventuale_percorso": "comune",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          },
+          {
+            "orario_inizio": "16:10",
+            "orario_fine": "18:40",
+            "nome_insegnamento": "INFORMATICA PER L'INGEGNERIA",
+            "corso_di_studio": "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE",
+            "anno_corso": "1",
+            "eventuale_percorso": "SISTEMI E APPLICAZIONI INFORMATICHE",
+            "partizione": {
+              "codice": "DIV_CLAS26\\CLASSE_O",
+              "descrizione": "Classe O - BARI (2026)",
+              "descrizione_EN": null
+            }
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "13:30",
+            "orario_fine": "14:30",
+            "durata_minuti": 60
+          },
+          {
+            "orario_inizio": "18:40",
+            "orario_fine": "20:00",
+            "durata_minuti": 80
+          }
+        ]
+      },
+      "Venerdì": {
+        "lezioni": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "10:50",
+            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
+            "corso_di_studio": "ARCHITETTURA",
+            "anno_corso": "3",
+            "eventuale_percorso": null,
+            "partizione": null
+          }
+        ],
+        "fasce_libere": [
+          {
+            "orario_inizio": "10:50",
+            "orario_fine": "20:00",
+            "durata_minuti": 550
+          }
+        ]
+      },
+      "Sabato": {
+        "lezioni": [],
+        "fasce_libere": [
+          {
+            "orario_inizio": "08:30",
+            "orario_fine": "20:00",
+            "durata_minuti": 690
+          }
+        ]
+      }
+    },
     "Aula M": {
       "Lunedì": {
         "lezioni": [
@@ -5000,15 +5343,6 @@
             "anno_corso": "1",
             "eventuale_percorso": "comune",
             "partizione": null
-          },
-          {
-            "orario_inizio": "16:10",
-            "orario_fine": "17:50",
-            "nome_insegnamento": "DIGITAL TWIN E INTELLIGENZA ARTIFICIALE PER LA GESTIONE DEI SISTEMI ELETTRICI",
-            "corso_di_studio": "INGEGNERIA ENERGETICA",
-            "anno_corso": "2",
-            "eventuale_percorso": "GENERAZIONE DISTRIBUITA ED USI FINALI DELL'ENERGIA",
-            "partizione": null
           }
         ],
         "fasce_libere": [
@@ -5018,9 +5352,9 @@
             "durata_minuti": 60
           },
           {
-            "orario_inizio": "17:50",
+            "orario_inizio": "16:10",
             "orario_fine": "20:00",
-            "durata_minuti": 130
+            "durata_minuti": 230
           }
         ]
       },
@@ -5751,240 +6085,6 @@
             "orario_inizio": "17:50",
             "orario_fine": "20:00",
             "durata_minuti": 130
-          }
-        ]
-      },
-      "Sabato": {
-        "lezioni": [],
-        "fasce_libere": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "20:00",
-            "durata_minuti": 690
-          }
-        ]
-      }
-    },
-    "Aula MAGNA": {
-      "Lunedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "10:50",
-            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "3",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "13:30",
-            "nome_insegnamento": "LUCE SUONO CLIMA",
-            "corso_di_studio": "DISEGNO INDUSTRIALE",
-            "anno_corso": "1",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:30",
-            "orario_fine": "18:30",
-            "nome_insegnamento": "STORIA DEL DESIGN",
-            "corso_di_studio": "DISEGNO INDUSTRIALE",
-            "anno_corso": "1",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "13:30",
-            "orario_fine": "14:30",
-            "durata_minuti": 60
-          },
-          {
-            "orario_inizio": "18:30",
-            "orario_fine": "20:00",
-            "durata_minuti": 90
-          }
-        ]
-      },
-      "Martedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "13:30",
-            "nome_insegnamento": "ISTITUZIONI DI MATEMATICA E GEOMETRIA",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "1",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:50",
-            "orario_fine": "13:30",
-            "nome_insegnamento": "MACCHINE A FLUIDO II E SISTEMI ENERGETICI II - MACCHINE A FLUIDO II ( 1° Modulo)",
-            "corso_di_studio": "INGEGNERIA MECCANICA (D.M. 270/04)",
-            "anno_corso": "1",
-            "eventuale_percorso": "comune",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:30",
-            "orario_fine": "18:30",
-            "nome_insegnamento": "ISTITUZIONI DI MATEMATICA E GEOMETRIA",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "1",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:30",
-            "orario_fine": "17:30",
-            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "3",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "13:30",
-            "orario_fine": "14:30",
-            "durata_minuti": 60
-          },
-          {
-            "orario_inizio": "18:30",
-            "orario_fine": "20:00",
-            "durata_minuti": 90
-          }
-        ]
-      },
-      "Mercoledì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "13:30",
-            "nome_insegnamento": "STORIA DELL'ARCHITETTURA III",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "3",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "14:30",
-            "orario_fine": "17:00",
-            "nome_insegnamento": "MECCANICA RAZIONALE",
-            "corso_di_studio": "INGEGNERIA MECCANICA",
-            "anno_corso": "2",
-            "eventuale_percorso": "comune",
-            "partizione": {
-              "codice": "A1\\LZ",
-              "descrizione": "Iniziali cognome L-Z",
-              "descrizione_EN": null
-            }
-          },
-          {
-            "orario_inizio": "14:30",
-            "orario_fine": "17:30",
-            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "2",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "17:00",
-            "orario_fine": "18:40",
-            "nome_insegnamento": "PRINCIPI DI INGEGNERIA ELETTRICA",
-            "corso_di_studio": "INGEGNERIA MECCANICA",
-            "anno_corso": "2",
-            "eventuale_percorso": "comune",
-            "partizione": {
-              "codice": "A1\\LZ",
-              "descrizione": "Iniziali cognome L-Z",
-              "descrizione_EN": null
-            }
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "13:30",
-            "orario_fine": "14:30",
-            "durata_minuti": 60
-          },
-          {
-            "orario_inizio": "18:40",
-            "orario_fine": "20:00",
-            "durata_minuti": 80
-          }
-        ]
-      },
-      "Giovedì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "10:10",
-            "nome_insegnamento": "MECCANICA APPLICATA ALLE MACCHINE II",
-            "corso_di_studio": "INGEGNERIA MECCANICA (D.M. 270/04)",
-            "anno_corso": "1",
-            "eventuale_percorso": "comune",
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "11:00",
-            "nome_insegnamento": "LABORATORIO DI INTERIOR ED EXIBIT DESIGN",
-            "corso_di_studio": "DISEGNO INDUSTRIALE",
-            "anno_corso": "2",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "13:30",
-            "nome_insegnamento": "STORIA DELL'ARCHITETTURA II (MEDIEVALE + MODERNA)",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "2",
-            "eventuale_percorso": null,
-            "partizione": null
-          },
-          {
-            "orario_inizio": "11:00",
-            "orario_fine": "13:30",
-            "nome_insegnamento": "RISK MANAGEMENT",
-            "corso_di_studio": "INGEGNERIA GESTIONALE (D.M.270/04)",
-            "anno_corso": "3",
-            "eventuale_percorso": "INFRASTRUTTURE",
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "13:30",
-            "orario_fine": "20:00",
-            "durata_minuti": 390
-          }
-        ]
-      },
-      "Venerdì": {
-        "lezioni": [
-          {
-            "orario_inizio": "08:30",
-            "orario_fine": "10:50",
-            "nome_insegnamento": "SCIENZA DELLE COSTRUZIONI",
-            "corso_di_studio": "ARCHITETTURA",
-            "anno_corso": "3",
-            "eventuale_percorso": null,
-            "partizione": null
-          }
-        ],
-        "fasce_libere": [
-          {
-            "orario_inizio": "10:50",
-            "orario_fine": "20:00",
-            "durata_minuti": 550
           }
         ]
       },
@@ -7422,6 +7522,15 @@
             "partizione": null
           },
           {
+            "orario_inizio": "16:10",
+            "orario_fine": "17:50",
+            "nome_insegnamento": "DIGITAL TWIN E INTELLIGENZA ARTIFICIALE PER LA GESTIONE DEI SISTEMI ELETTRICI",
+            "corso_di_studio": "INGEGNERIA ENERGETICA",
+            "anno_corso": "2",
+            "eventuale_percorso": "GENERAZIONE DISTRIBUITA ED USI FINALI DELL'ENERGIA",
+            "partizione": null
+          },
+          {
             "orario_inizio": "17:50",
             "orario_fine": "19:30",
             "nome_insegnamento": "AERONAUTICAL EMBEDDED AND CERTIFIED SYSTEMS",
@@ -7436,11 +7545,6 @@
             "orario_inizio": "13:30",
             "orario_fine": "14:30",
             "durata_minuti": 60
-          },
-          {
-            "orario_inizio": "16:10",
-            "orario_fine": "17:50",
-            "durata_minuti": 100
           },
           {
             "orario_inizio": "19:30",
